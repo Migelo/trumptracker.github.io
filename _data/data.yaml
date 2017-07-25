@@ -106,3 +106,16 @@ promises:
             - 'https://redd.it/5d4r8m'
         sources:
             - 'http://tadejbeocanin.si/lokalne-volitve/'
+    -
+        title: 'Urbana prenova mesta Ajdovščina'
+        description: 'Zagotoviti boljšo kvaliteto življena prek obnove mesta in javnih površin'
+        url: ''
+        status: In progress
+        status_info: 'V teku'
+        category: Environment
+        tags:
+            - 'Environment'
+        comments:
+            - 'https://redd.it/5d4r8m'
+        sources:
+            - 'http://tadejbeocanin.si/lokalne-volitve/'
