@@ -30,7 +30,7 @@ promises:
     -
         title: 'Tristo novih delavnih mest'
         description: ''
-        url: ''
+        url: 'https://migelo.github.io/trumptracker.github.io//tristo-novih-delavnih-mest/'
         status: In progress
         status_info: 'Zaenkrat še ni bilo ustvarjenih 300 novih delavnih mest.'
         category: Economy
@@ -42,7 +42,7 @@ promises:
             - 'http://tadejbeocanin.si/lokalne-volitve/'
     -
         title: 'Podjetniški inkubator'
-        description: 'Ustanoviti podjetniški inkubator.'
+        description: ''
         url: 'https://migelo.github.io/trumptracker.github.io//podjetniki-inkubator/'
         status: Not started
         status_info: 'Nič'
@@ -55,7 +55,7 @@ promises:
             - 'http://tadejbeocanin.si/lokalne-volitve/'
     -
         title: 'Novo javno podjetje: lesna biomasa'
-        description: 'Ustanoviti javno podjetje lesna biomasa'
+        description: ''
         url: 'https://migelo.github.io/trumptracker.github.io//novo-javno-podjetje-lesna-biomasa/'
         status: Not started
         status_info: 'Nič'
@@ -69,7 +69,7 @@ promises:
 
     -
         title: 'Subvencije direktnih zaposlitev podjetnikom'
-        description: 'Subvencionirati direktne zaposlitve podjetnikov'
+        description: ''
         url: 'https://migelo.github.io/trumptracker.github.io//subvencije-direktnih-zaposlitev-podjetnikom/'
         status: Not started
         status_info: 'Nič'
@@ -109,7 +109,7 @@ promises:
     -
         title: 'Urbana prenova mesta Ajdovščina'
         description: 'Zagotoviti boljšo kvaliteto življena prek obnove mesta in javnih površin'
-        url: ''
+        url: 'https://migelo.github.io/trumptracker.github.io//urbana-prenova-mesta-ajdovina/'
         status: In progress
         status_info: 'V teku'
         category: Environment
