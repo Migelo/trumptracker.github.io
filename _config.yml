@@ -13,12 +13,10 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Trump Tracker
-email: viren.mohindra+trump@gmail.com
-description: Track Donald J Trump's Electoral Promises with Trump Tracker.
-url: https://trumptracker.github.io
-twitter_username: VirenMohindra
-github_username:  TrumpTracker
+title: Wajdušna tracker
+#email: viren.mohindra+trump@gmail.com
+description: Sledimo obljubam župana Ajdovščine.
+url: https://migelo.github.io/trumptracker.github.io/
 
 # Build settings
 markdown: kramdown
