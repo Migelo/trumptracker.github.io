@@ -32,17 +32,15 @@ statuses:
 
 promises:
     -
-        title: 'Propose a Constitutional Amendment to impose term limits on all members of Congress'
+        title: 'Tristo novih delavnih mest'
         description: ''
-        url: 'https://trumptracker.github.io/propose-a-constitutional-amendment-to-impose-term-limits-on-all-members-of-congress/'
-        status: Broken
-        status_info: 'This promise was marked as broken because it was not fulfilled within 100 days. It will be marked as compromised when it is executed.'
-        category: First 100 Days
+        url: 'ni ga'
+        status: In progress
+        status_info: 'Zaenkrat še ni bilo ustvarjenih 300 novih delavnih mest.'
+        category: Delovna mesta
         tags:
-            - 'Contract with the American Voter - 100 Day Plan'
+            - 'Delovna mesta'
         comments:
             - 'https://redd.it/5d4r8m'
         sources:
-            - 'https://web.archive.org/web/20161101093508/https://www.donaldjtrump.com/press-releases/donald-j.-trump-delivers-groundbreaking-contract-for-the-american-vote1'
-            - 'https://youtu.be/4t1xR9U6IAU?t=44s'
-            - 'https://web.archive.org/web/20161109222320/http://www.npr.org/2016/11/09/501451368/here-is-what-donald-trump-wants-to-do-in-his-first-100-days'
+            - 'http://web.archive.org/web/20141010075846/http://tadejbeocanin.si:80/lokalne-volitve/'
