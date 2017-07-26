@@ -16,8 +16,7 @@
 title: Wajdušna tracker
 #email: viren.mohindra+trump@gmail.com
 description: Sledimo obljubam župana Ajdovščine.
-#url: https://migelo.github.io/trumptracker.github.io/
-url: 
+url: https://migelo.github.io/trumptracker.github.io/
 
 # Build settings
 markdown: kramdown

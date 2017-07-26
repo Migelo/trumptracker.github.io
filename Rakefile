@@ -63,8 +63,8 @@ task :generatestatic do
 		if status_info != ''
 		  status_info = "<b>#{status_info}</b><br><br>"
 		end
-		comments = x['comments'][0]
-		commentsarray = x['comments'].to_json.sub! "https://redd.it/", ""
+#		comments = x['comments'][0]
+#		commentsarray = x['comments'].to_json.sub! "https://redd.it/", ""
 		category = x['category']
 		description = x['description']
 		filename = title.prettyurl
@@ -91,29 +91,29 @@ task :generatestatic do
 			    sources << "<li><a class='src' target='_blank' href='#{y}'>#{srctitle}</a></li>\n"			
             #end  
 		}
-		tweettext = '@realDonaldTrump '
-		if status == "Not started"
-			tweettext << "hasn't started"
-			statuscolor = '#31708f'
-		elsif status == "In progress"
-			tweettext << "is progressing"
-			statuscolor = '#8a6d3b'
-		elsif status == "Achieved"
-			tweettext << "achieved"
-			statuscolor = '#5cb85c'
-		elsif status == "Broken"
-			tweettext << "broke"
-			statuscolor = '#d9534f'
-		elsif status == "Compromised"
-			tweettext << "compromised on"
-			statuscolor = '#4e5459'
-		end
-		tweettext << " promise no. #{index}: #{title}"
-		tweettext_short = "#{tweettext}"[0..98]
-		if tweettext.length > 98
-			tweettext_short << "..."
-		end
-		tweettext = CGI.escape(tweettext_short)
+#		tweettext = '@realDonaldTrump '
+#		if status == "Not started"
+#			tweettext << "hasn't started"
+#			statuscolor = '#31708f'
+#		elsif status == "In progress"
+#			tweettext << "is progressing"
+#			statuscolor = '#8a6d3b'
+#		elsif status == "Achieved"
+#			tweettext << "achieved"
+#			statuscolor = '#5cb85c'
+#		elsif status == "Broken"
+#			tweettext << "broke"
+#			statuscolor = '#d9534f'
+#		elsif status == "Compromised"
+#			tweettext << "compromised on"
+#			statuscolor = '#4e5459'
+#		end
+#		tweettext << " promise no. #{index}: #{title}"
+#		tweettext_short = "#{tweettext}"[0..98]
+#		if tweettext.length > 98
+#			tweettext_short << "..."
+#		end
+#		tweettext = CGI.escape(tweettext_short)
 		url = title.prettyurl
 		titleurl = CGI.escape(title)
 		layout = ""
@@ -122,11 +122,11 @@ task :generatestatic do
 		layout.gsub! "{{ page.title }}", title
 		layout.gsub! "{{ page.titleurl }}", titleurl
 		layout.gsub! "{{ page.url }}", url
-		layout.gsub! "{{ page.statuscolor }}", statuscolor
+#		layout.gsub! "{{ page.statuscolor }}", statuscolor
 		layout.gsub! "{{ page.status }}", status
 		layout.gsub! "{{ page.description }}", description
 		layout.gsub! "{{ page.status_info }}", status_info
-		layout.gsub! "{{ tweettext }}", tweettext
+#		layout.gsub! "{{ tweettext }}", tweettext
 #		layout.gsub! "{{ page.comments }}", comments
 #		layout.gsub! "{{ page.commentsid }}", commentsarray
 		layout.gsub! "{{ page.category }}", category
@@ -171,10 +171,11 @@ task :generateurls do
 		if x.include? "title: '"
 			title = x.split("title: '")[1].split("'\n")[0]
 			url = "url: '"
-			url << url_prefix
+#			url << url_prefix
 			url << '/'
 			url << title.prettyurl
 			url << "/'"
+			puts url
 			oldurl = "url: '"
 			oldurl << x.split("url: '")[1].split("'\n")[0]
 			oldurl << "'"
