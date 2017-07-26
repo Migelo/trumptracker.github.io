@@ -127,7 +127,7 @@ task :generatestatic do
 		layout.gsub! "{{ page.description }}", description
 		layout.gsub! "{{ page.status_info }}", status_info
 		layout.gsub! "{{ tweettext }}", tweettext
-		layout.gsub! "{{ page.comments }}", comments
+#		layout.gsub! "{{ page.comments }}", comments
 #		layout.gsub! "{{ page.commentsid }}", commentsarray
 		layout.gsub! "{{ page.category }}", category
 		out_file.puts(layout)
