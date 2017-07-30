@@ -1,28 +1,30 @@
-# Status has five options: Not started, In progress, Achieved, Broken, and Compromised
+# Status has five options: Ni začeto, V teku, Doseženo, Fail, and Deloma uspelo
 
 icons:
-    Culture: music
-    Economy: dollar
-    Environment: leaf
-    Government: university
-    Security: fighter-jet
-    Health: heart
-    Education: graduation-cap
+    Kultura: music
+    Gospodarstvo: dollar
+    Okolje: leaf
+    Lokalna samouprava: university
+    Infrastruktura: fighter-jet
+    Sociala: heart
+    Šolstvo: graduation-cap
+    Turizem: 
+
 
 statuses:
-    Not started:
+    Ni začeto:
         color: info
         icon: hourglass-start
-    In progress:
+    V teku:
         color: warning
         icon: cogs
-    Achieved:
+    Doseženo:
         color: success
         icon: check-circle-o
-    Broken:
+    Fail:
         color: danger
         icon: ban
-    Compromised:
+    Deloma uspelo:
         color: compromised
         icon: handshake-o
 
@@ -31,9 +33,9 @@ promises:
         title: 'Tristo novih delavnih mest'
         description: ''
         url: '/tristo-novih-delavnih-mest/'
-        status: In progress
+        status: V teku
         status_info: 'Zaenkrat še ni bilo ustvarjenih 300 novih delavnih mest.'
-        category: Economy
+        category: Gospodarstvo
         tags:
             - 'Delovna mesta'
         comments:
@@ -44,11 +46,11 @@ promises:
         title: 'Podjetniški inkubator'
         description: ''
         url: '/podjetniki-inkubator/'
-        status: Not started
+        status: Ni začeto
         status_info: 'Nič'
-        category: Economy
+        category: Gospodarstvo
         tags:
-            - 'Economy'
+            - 'Gospodarstvo'
         comments:
             - 'https://redd.it/5d4r8m'
         sources:
@@ -57,11 +59,11 @@ promises:
         title: 'Novo javno podjetje: lesna biomasa'
         description: ''
         url: '/novo-javno-podjetje-lesna-biomasa/'
-        status: Not started
+        status: Ni začeto
         status_info: 'Nič'
-        category: Economy
+        category: Gospodarstvo
         tags:
-            - 'Economy'
+            - 'Gospodarstvo'
         comments:
             - 'https://redd.it/5d4r8m'
         sources:
@@ -71,11 +73,11 @@ promises:
         title: 'Subvencije direktnih zaposlitev podjetnikom'
         description: ''
         url: '/subvencije-direktnih-zaposlitev-podjetnikom/'
-        status: Not started
+        status: Ni začeto
         status_info: 'Nič'
-        category: Economy
+        category: Gospodarstvo
         tags:
-            - 'Economy'
+            - 'Gospodarstvo'
         comments:
             - 'https://redd.it/5d4r8m'
         sources:
@@ -84,11 +86,11 @@ promises:
         title: 'Evropska institucija v Podreccovi upravni stavbi Primorja'
         description: 'Dobiti sedež ene izmed evropskih institucij v stari stavbi Primorja'
         url: '/evropska-institucija-v-podreccovi-upravni-stavbi-primorja/'
-        status: Not started
+        status: Ni začeto
         status_info: 'Nič'
-        category: Economy
+        category: Gospodarstvo
         tags:
-            - 'Economy'
+            - 'Gospodarstvo'
         comments:
             - 'https://redd.it/5d4r8m'
         sources:
@@ -97,11 +99,11 @@ promises:
         title: 'investitorji za ponovni zagon prostih proizvodnih kapacitet (tovarna Lipa in druge kapacitete)'
         description: 'Oživeti staro tovarno Lipa'
         url: '/investitorji-za-ponovni-zagon-prostih-proizvodnih-kapacitet-tovarna-lipa-in-druge-kapacitete/'
-        status: Not started
+        status: Ni začeto
         status_info: 'Nič'
-        category: Economy
+        category: Gospodarstvo
         tags:
-            - 'Economy'
+            - 'Gospodarstvo'
         comments:
             - 'https://redd.it/5d4r8m'
         sources:
@@ -110,12 +112,379 @@ promises:
         title: 'Urbana prenova mesta Ajdovščina'
         description: 'Zagotoviti boljšo kvaliteto življena prek obnove mesta in javnih površin'
         url: '/urbana-prenova-mesta-ajdovina/'
-        status: In progress
+        status: V teku
         status_info: 'V teku'
-        category: Environment
+        category: Okolje
         tags:
-            - 'Environment'
+            - 'Okolje'
         comments:
             - 'https://redd.it/5d4r8m'
         sources:
             - 'http://tadejbeocanin.si/lokalne-volitve/'
+    -
+        title: 'Vsebinska in urbanistična prenova Lavričevega trga in grajskega obzidja s širšo okolico'
+        description: ''
+        url: '/vsebinska-in-urbanistina-prenova-lavrievega-trga-in-grajskega-obzidja-s-iro-okolico/'
+        status: V teku
+        status_info: 'Grajsko dvorišče je obnovljeno, trg bo kmalu.'
+        category: Kultura
+        tags:
+            - 'Kultura'
+        comments:
+            - 'https://redd.it/5d4r8m'
+        sources:
+            - 'http://tadejbeocanin.si/lokalne-volitve/'
+    -
+        title: 'Tri nova krožišča na Goriški cesti'
+        description: ''
+        url: '/tri-nova-kroia-na-goriki-cesti/'
+        status: V teku
+        status_info: '1 dokončano, 1 obnovljeno 1 v gradnji'
+        category: Infrastructure
+        tags:
+            - 'Infrastructure'
+        comments:
+            - 'https://redd.it/5d4r8m'
+        sources:
+            - 'http://tadejbeocanin.si/lokalne-volitve/'
+    -
+        title: 'Ureditev površin za šport in rekreacijo'
+        description: ''
+        url: '/ureditev-povrin-za-port-in-rekreacijo/'
+        status: V teku
+        status_info: 'Obnova dvorane na Policah, obnova bike parka na Palah'
+        category: Infrastruktura
+        tags:
+            - 'Infrastruktura'
+        comments:
+            - 'https://redd.it/5d4r8m'
+        sources:
+            - 'http://tadejbeocanin.si/lokalne-volitve/'
+    -
+        title: 'Mostovi in brvi čez Lokavšček in Hubelj'
+        description: ''
+        url: '/mostovi-in-brvi-ez-lokavek-in-hubelj/'
+        status: Ni začeto
+        status_info: 'Zenkrat ni še nič'
+        category: Infrastruktura
+        tags:
+            - 'Infrastruktura'
+        comments:
+            - 'https://redd.it/5d4r8m'
+        sources:
+            - 'http://tadejbeocanin.si/lokalne-volitve/'
+    -
+        title: 'Kolesarske steze'
+        description: ''
+        url: '/kolesarske-steze/'
+        status: V teku
+        status_info: 'Obnovljene so poti od Lokavca do Ajdovščine, čakamo še okolišče poti'
+        category: Infrastruktura
+        tags:
+            - 'Infrastruktura'
+        comments:
+            - 'https://redd.it/5d4r8m'
+        sources:
+            - 'http://tadejbeocanin.si/lokalne-volitve/'
+    -
+        title: 'Devetdeset novih stanovanj za neprofitni najem ali odkup'
+        description: '30 vrstnih hiš, 30 stanovanj in obnova 30 bivalnih enot v zapuščenih hišah po vaseh'
+        url: '/devetdeset-novih-stanovanj-za-neprofitni-najem-ali-odkup/'
+        status: V teku
+        status_info: '7 stanovanj v 2016, drugih podatkov ne najdem'
+        category: Sociala
+        tags:
+            - 'Sociala'
+        comments:
+            - 'https://redd.it/5d4r8m'
+        sources:
+            - 'http://tadejbeocanin.si/lokalne-volitve/'
+    -
+        title: 'Neprofitni občinski stanovanjski sklad'
+        description: ''
+        url: '/neprofitni-obinski-stanovanjski-sklad/'
+        status: Ni začeto
+        status_info: ''
+        category: Sociala
+        tags:
+            - 'Sociala'
+        comments:
+            - 'https://redd.it/5d4r8m'
+        sources:
+            - 'http://tadejbeocanin.si/lokalne-volitve/'
+    -
+        title: 'Oblikovanje skupne turistične ponudbe Vipavske doline in Gore:'
+        description: 'rimska in tehniška dediščina, vino in kulinarika, burja in neštete možnosti za gibanje v naravi'
+        url: '/oblikovanje-skupne-turistine-ponudbe-vipavske-doline-in-gore/'
+        status: V teku
+        status_info: ''
+        category: Turizem
+        tags:
+            - 'Turizem'
+        comments:
+            - 'https://redd.it/5d4r8m'
+        sources:
+            - 'http://tadejbeocanin.si/lokalne-volitve/'
+    -
+        title: 'Trg Vipavske doline'
+        description: ''
+        url: '/trg-vipavske-doline/'
+        status: Ni začeto
+        status_info: ''
+        category: Turizem
+        tags:
+            - 'Turizem'
+        comments:
+            - 'https://redd.it/5d4r8m'
+        sources:
+            - 'http://tadejbeocanin.si/lokalne-volitve/'
+    -
+        title: 'Turistična infrastruktura'
+        description: 'interaktivne turistične točke in poti, nove nočitvene kapacitete, kolesarske poti, ureditev vzletišč na Gori, ureditev poti za pohodnike, kolesarje, tekače na smučeh ter konjenike'
+        url: '/turistina-infrastruktura/'
+        status: V teku
+        status_info: 'Novi napisi po Ajdovščini'
+        category: Turizem
+        tags:
+            - 'Turizem'
+        comments:
+            - 'https://redd.it/5d4r8m'
+        sources:
+            - 'http://tadejbeocanin.si/lokalne-volitve/'
+    -
+        title: 'Kamp ob reki Vipavi'
+        description: ''
+        url: '/kamp-ob-reki-vipavi/'
+        status: Ni začeto
+        status_info: ''
+        category: Turizem
+        tags:
+            - 'Turizem'
+        comments:
+            - 'https://redd.it/5d4r8m'
+        sources:
+            - 'http://tadejbeocanin.si/lokalne-volitve/'
+    -
+        title: 'Ajdovščina v maju ter drugi glasbeni in kulinarični festivali'
+        description: ''
+        url: '/ajdovina-v-maju-ter-drugi-glasbeni-in-kulinarini-festivali/'
+        status: Doseženo
+        status_info: 'Ajdovščina v maju se izvaja več je glasbenih festivalov, kulinarični dogodki kot Pivomanija se izvajajo'
+        category: Kultura
+        tags:
+            - 'Kultura'
+        comments:
+            - 'https://redd.it/5d4r8m'
+        sources:
+            - 'http://tadejbeocanin.si/lokalne-volitve/'
+    -
+        title: 'Povečanje podpore športnim, kulturnim, mladinskim, gasilskim, upokojenskim in drugim društvom'
+        description: ''
+        url: '/poveanje-podpore-portnim-kulturnim-mladinskim-gasilskim-upokojenskim-in-drugim-drutvom/'
+        status: Doseženo
+        status_info: 'Na zadnjih razpisih je bilo več sredstev za vsa razna društva'
+        category: Kultura
+        tags:
+            - 'Kultura'
+        comments:
+            - 'https://redd.it/5d4r8m'
+        sources:
+            - 'http://tadejbeocanin.si/lokalne-volitve/'
+    -
+        title: 'Kulturni center in glasbena šola'
+        description: ''
+        url: '/kulturni-center-in-glasbena-ola/'
+        status: V teku
+        status_info: 'Glasbena šola je dobila nove prostore '
+        category: Kultura
+        tags:
+            - ''
+        comments:
+            - 'https://redd.it/5d4r8m'
+        sources:
+            - 'http://tadejbeocanin.si/lokalne-volitve/'
+            - 'https://www.lokalne-ajdovscina.si/article/2016032408244748/Glasbena%20%C5%A1ola%20kmalu%20pod%20eno%20streho/'
+    -
+        title: 'Trim steza'
+        description: ''
+        url: '/trim-steza/'
+        status: Ni začeto
+        status_info: 'Kaj je sploh trim steza in kje bi bla?'
+        category: Kultura
+        tags:
+            - 'Kultura'
+        comments:
+            - 'https://redd.it/5d4r8m'
+        sources:
+            - 'http://tadejbeocanin.si/lokalne-volitve/'
+    -
+        title: 'Ureditev območja Pal'
+        description: 'ureditev območja Pal v športno – mladinski center (skakalnica, proga za kolesarje …)'
+        url: '/ureditev-obmoja-pal/'
+        status: V teku
+        status_info: 'Proga za kolesarje je bila urejena'
+        category: Kultura
+        tags:
+            - 'Kultura'
+        comments:
+            - 'https://redd.it/5d4r8m'
+        sources:
+            - 'http://tadejbeocanin.si/lokalne-volitve/'
+    -
+        title: 'Namakalni sistemi'
+        description: ''
+        url: '/namakalni-sistemi/'
+        status: Ni začeto
+        status_info: ''
+        category: Gospodarstvo
+        tags:
+            - 'Gospodarstvo'
+        comments:
+            - 'https://redd.it/5d4r8m'
+        sources:
+            - 'http://tadejbeocanin.si/lokalne-volitve/'
+    -
+        title: 'Zavarovanje kmetijskih površin'
+        description: 'zavarovanje obdelovalnih površin pred naravnimi nesrečami (poplave, toča)'
+        url: '/zavarovanje-kmetijskih-povrin/'
+        status: Ni začeto
+        status_info: ''
+        category: Gospodarstvo
+        tags:
+            - 'Gospodarstvo'
+        comments:
+            - 'https://redd.it/5d4r8m'
+        sources:
+            - 'http://tadejbeocanin.si/lokalne-volitve/'
+    -
+        title: 'pridelovalno – prodajna veriga ekološko pridelane zelenjave in sadja'
+        description: ''
+        url: '/pridelovalno-prodajna-veriga-ekoloko-pridelane-zelenjave-in-sadja/'
+        status: Ni začeto
+        status_info: ''
+        category: Gospodarstvo
+        tags:
+            - 'Gospodarstvo'
+        comments:
+            - 'https://redd.it/5d4r8m'
+        sources:
+            - 'http://tadejbeocanin.si/lokalne-volitve/'
+    -
+        title: 'Oblikovanje skupne vizije občine Ajdovščina do leta 2025 s Strategijo razvoja občine'
+        description: ''
+        url: '/oblikovanje-skupne-vizije-obine-ajdovina-do-leta-2025-s-strategijo-razvoja-obine/'
+        status: V teku
+        status_info: ''
+        category: Lokalna samouprava
+        tags:
+            - 'Lokalna samouprava'
+        comments:
+            - 'https://redd.it/5d4r8m'
+        sources:
+            - 'http://tadejbeocanin.si/lokalne-volitve/'
+    -
+        title: 'Projektna koalicija v občinskem svetu'
+        description: ''
+        url: '/projektna-koalicija-v-obinskem-svetu/'
+        status: V teku
+        status_info: ''
+        category: Lokalna samouprava
+        tags:
+            - 'Lokalna samouprava'
+        comments:
+            - 'https://redd.it/5d4r8m'
+        sources:
+            - 'http://tadejbeocanin.si/lokalne-volitve/'
+    -
+        title: 'Transparentna in demokratična priprava aktov in predpisov'
+        description: 'V teku'
+        url: '/transparentna-in-demokratina-priprava-aktov-in-predpisov/'
+        status: V teku
+        status_info: ''
+        category: Lokalna samouprava
+        tags:
+            - 'Lokalna samouprava'
+        comments:
+            - 'https://redd.it/5d4r8m'
+        sources:
+            - 'http://tadejbeocanin.si/lokalne-volitve/'
+    -
+        title: 'Občinska uprava kot kvaliteten servis občankam in občanom'
+        description: ''
+        url: '/obinska-uprava-kot-kvaliteten-servis-obankam-in-obanom/'
+        status: V teku
+        status_info: 'To je treba verjetno zbirsat ker je nemogoče ocenit objektivno'
+        category: Lokalna samouprava
+        tags:
+            - 'Lokalna samouprava'
+        comments:
+            - 'https://redd.it/5d4r8m'
+        sources:
+            - 'http://tadejbeocanin.si/lokalne-volitve/'
+    -
+        title: 'Polna podpora pobudam občank in občanov'
+        description: ''
+        url: '/polna-podpora-pobudam-obank-in-obanov/'
+        status: V teku
+        status_info: ''
+        category: Lokalna samouprava
+        tags:
+            - 'Lokalna samouprava'
+        comments:
+            - 'https://redd.it/5d4r8m'
+        sources:
+            - 'http://tadejbeocanin.si/lokalne-volitve/'
+    -
+        title: 'Večja vloga krajevnih skupnosti'
+        description: ''
+        url: '/veja-vloga-krajevnih-skupnosti/'
+        status: V teku
+        status_info: ''
+        category: Lokalna samouprava
+        tags:
+            - 'Lokalna samouprava'
+        comments:
+            - 'https://redd.it/5d4r8m'
+        sources:
+            - 'http://tadejbeocanin.si/lokalne-volitve/'
+    -
+        title: 'Posvetovalna telesa strokovnjakov'
+        description: 'posvetovalna telesa strokovnjakov na področjih gospodarstva, vzgoje in izobraževanja, turizma, družbeno-kulturnih in društvenih dejavnosti'
+        url: '/posvetovalna-telesa-strokovnjakov/'
+        status: V teku
+        status_info: ''
+        category: Lokalna samouprava
+        tags:
+            - 'Lokalna samouprava'
+        comments:
+            - 'https://redd.it/5d4r8m'
+        sources:
+            - 'http://tadejbeocanin.si/lokalne-volitve/'
+    -
+        title: 'Participativni proračun od leta 2017'
+        description: 'participativni proračun od leta 2017, ko občanke in občani sami razporedijo del denarja v občinskem proračunu'
+        url: '/participativni-proraun-od-leta-2017/'
+        status: Doseženo
+        status_info: 'Doseženo v okrilju projekta "Moja pobuda"'
+        category: Lokalna samouprava
+        tags:
+            - 'Lokalna samouprava'
+        comments:
+            - 'https://redd.it/5d4r8m'
+        sources:
+            - 'http://tadejbeocanin.si/lokalne-volitve/'
+            - 'https://www.ajdovscina.si/mojapobuda/'
+    -
+        title: 'Sofinanciranje EU'
+        description: 'zlato pravilo: enemu občinskemu evru za investicije dodati en evro iz Evrope ali države'
+        url: '/sofinanciranje-eu/'
+        status: V teku
+        status_info: ''
+        category: Lokalna samouprava
+        tags:
+            - 'Lokalna samouprava'
+        comments:
+            - 'https://redd.it/5d4r8m'
+        sources:
+            - 'http://tadejbeocanin.si/lokalne-volitve/'
+    
