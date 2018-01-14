@@ -86,8 +86,8 @@ promises:
         title: 'Evropska institucija v Podreccovi upravni stavbi Primorja'
         description: 'Dobiti sedež ene izmed evropskih institucij v stari stavbi Primorja'
         url: '/evropska-institucija-v-podreccovi-upravni-stavbi-primorja/'
-        status: Ni začeto
-        status_info: 'Nič'
+        status: Fail
+        status_info: 'Pipisterl kupil stavbo od DUTB'
         category: Gospodarstvo
         tags:
             - 'Gospodarstvo'
@@ -95,6 +95,7 @@ promises:
             - 'https://redd.it/5d4r8m'
         sources:
             - 'http://tadejbeocanin.si/lokalne-volitve/'
+            - 'https://www.vecer.com/v-stavbo-nekdanjega-primorja-se-seli-pipistrel-6244963'
     -
         title: 'investitorji za ponovni zagon prostih proizvodnih kapacitet (tovarna Lipa in druge kapacitete)'
         description: 'Oživeti staro tovarno Lipa'
@@ -308,8 +309,8 @@ promises:
         title: 'Trim steza'
         description: ''
         url: '/trim-steza/'
-        status: Ni začeto
-        status_info: 'Kaj je sploh trim steza in kje bi bla?'
+        status: Doseženo
+        status_info: 'Trim steza zgrajena'
         category: Kultura
         tags:
             - 'Kultura'
@@ -317,6 +318,7 @@ promises:
             - 'https://redd.it/5d4r8m'
         sources:
             - 'http://tadejbeocanin.si/lokalne-volitve/'
+            - 'https://www.lokalne-ajdovscina.si/article/2016032211141555/'
     -
         title: 'Ureditev območja Pal'
         description: 'ureditev območja Pal v športno – mladinski center (skakalnica, proga za kolesarje …)'
@@ -373,8 +375,8 @@ promises:
         title: 'Oblikovanje skupne vizije občine Ajdovščina do leta 2025 s Strategijo razvoja občine'
         description: ''
         url: '/oblikovanje-skupne-vizije-obine-ajdovina-do-leta-2025-s-strategijo-razvoja-obine/'
-        status: V teku
-        status_info: ''
+        status: Doseženo
+        status_info: 'Strategija je dolga 66 strani in bila poslana na vsak naslov v Občini.'
         category: Lokalna samouprava
         tags:
             - 'Lokalna samouprava'
@@ -382,6 +384,9 @@ promises:
             - 'https://redd.it/5d4r8m'
         sources:
             - 'http://tadejbeocanin.si/lokalne-volitve/'
+            - 'https://www.lokalne-ajdovscina.si/article/2017060520512832/Predlog%20Strategije%20razvoja%20ob%C4%8Dine%20Ajdov%C5%A1%C4%8Dina%20do%20leta%202030/'
+            - 'https://www.lokalne-ajdovscina.si/mma/-/2017060520533026/'
+            - 'https://www.lokalne-ajdovscina.si/article/2017102614471672/Okrogla%20miza%20o%20uresni%C4%8Devanju%20strategije%20razvoja%20Ob%C4%8Dine%20Ajdov%C5%A1%C4%8Dina%20do%20leta%202030/'
     -
         title: 'Projektna koalicija v občinskem svetu'
         description: ''
