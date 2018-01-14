@@ -19,15 +19,6 @@ env:
   global:
   - NOKOGIRI_USE_SYSTEM_LIBRARIES=true # speeds up installation of html-proofer
 
-notifications:
-  webhooks:
-    urls:
-      - https://webhooks.gitter.im/e/9a2f29b3e24ed162f8d7
-    on_success: always  # options: [always|never|change] default: always
-    on_failure: always  # options: [always|never|change] default: always
-    on_start: false     # default: false
-
 cache:
   directories:
   - $TRAVIS_BUILD_DIR/tmp/.htmlproofer
-  
