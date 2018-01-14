@@ -222,7 +222,7 @@ task :test do
 		:cache => { :timeframe => '15d' },
 		:enforce_https => true,
 		:check_external_hash => true,
-		:url_ignore => [/https:\/\/web.archive.org\/web\//]
+		:url_ignore => [/https:\/\/web.archive.org\/web\//, /https:\/\/virenmohindra.me/]
 	}
 	HTMLProofer.check_directory("./_site", options).run
 end
