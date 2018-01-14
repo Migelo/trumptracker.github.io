@@ -1,6 +1,6 @@
 # Trump Tracker
 
-[![Travis](https://img.shields.io/travis/Migelo/trumptracker.github.io.svg?style=flat-square)](https://travis-ci.org/Migelo/trumptracker.github.io) [![license](https://img.shields.io/github/license/TrumpTracker/trumptracker.github.io.svg?style=flat-square)](https://github.com/TrumpTracker/trumptracker.github.io/blob/master/LICENSE.md)
+[![Travis](https://img.shields.io/travis/Migelo/wajdusnatracker.github.io.svg?style=flat-square)](https://travis-ci.org/Migelo/wajdusnatracker.github.io) [![license](https://img.shields.io/github/license/TrumpTracker/trumptracker.github.io.svg?style=flat-square)](https://github.com/TrumpTracker/trumptracker.github.io/blob/master/LICENSE.md)
 
 # Setup
 
