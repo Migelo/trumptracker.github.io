@@ -1,6 +1,6 @@
 # Trump Tracker
 
-[![Travis](https://img.shields.io/travis/TrumpTracker/trumptracker.github.io.svg?style=flat-square)](https://travis-ci.org/TrumpTracker/trumptracker.github.io) [![license](https://img.shields.io/github/license/TrumpTracker/trumptracker.github.io.svg?style=flat-square)](https://github.com/TrumpTracker/trumptracker.github.io/blob/master/LICENSE.md) [![Gitter](https://img.shields.io/gitter/room/TrumpTracker/trumptracker.github.io.svg?style=flat-square)](https://gitter.im/trump-tracker/Lobby) [![RSS](https://img.shields.io/badge/RSS-v2.0-brightgreen.svg?style=flat-square)](https://luithollander.nl/trumptracker/rss.php)
+[![Travis](https://img.shields.io/travis/Migelo/trumptracker.github.io.svg?style=flat-square)](https://travis-ci.org/Migelo/trumptracker.github.io) [![license](https://img.shields.io/github/license/TrumpTracker/trumptracker.github.io.svg?style=flat-square)](https://github.com/TrumpTracker/trumptracker.github.io/blob/master/LICENSE.md)
 
 # Setup
 
@@ -35,13 +35,7 @@ We'd love to get contributions from you! For a quick guide to getting your syste
 
 # Also check
 
-- [TrumpTracker RSS](https://github.com/TrumpTracker/RSS) - An RSS feed of all changes in the database file (PHP)
 - [TrumpTracker RedditBot](https://github.com/TrumpTracker/RedditBot) - A bot that creates a new Reddit thread for every addition to the database (PHP)
-- [TrumpTracker AutoTwitterHeart](https://github.com/TrumpTracker/AutoTwitterHeart) - Automatically like tweets which mention a specific hashtag or username (Ruby)
-- [YourTracker](https://github.com/TrumpTracker/YourTracker) - Make your own TrumpTracker with this command line interface (Node.JS)
 
 # Report Issues
-1. Create a [pull request](https://github.com/TrumpTracker/trumptracker.github.io/pulls) or create an [issue](https://github.com/TrumpTracker/trumptracker.github.io/issues)
-2. Message the Reddit mods at [/r/trumptracker](https://www.reddit.com/message/compose?to=%2Fr%2Ftrumptracker)
-3. Send a message on [Gitter](https://gitter.im/trump-tracker/Lobby)
-4. Otherwise you can fill out [the typeform](https://viren8.typeform.com/to/CA1RiV?)
+1. Create a [pull request](https://github.com/Migelo/trumptracker.github.io/pulls) or create an [issue](https://github.com/Migelo/trumptracker.github.io/issues)
